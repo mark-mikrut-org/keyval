@@ -1,0 +1,111 @@
+body {
+	margin-left: 40px;
+    margin-right: 40px;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 18px;
+}
+div.loggedin {
+    background-color: green;
+    color: white;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	margin: 10px 0px 10px 0px;
+	padding: 5px;
+	border: 1px solid #d9d9d9;
+}
+div.loggedout {
+    background-color: yellow;
+    color: black;
+	-webkit-border-radius: 6px;
+    border-radius: 6px;
+	margin: 10px 0px 10px 0px;
+	padding: 5px;
+    border: 1px solid #d9d9d9;
+}
+
+div.errormessage {
+    background-color: red;
+    color: white;
+	-webkit-border-radius: 6px;
+    border-radius: 6px;
+	margin: 10px 0px 10px 0px;
+	padding: 5px;
+    border: 1px solid #d9d9d9;
+}
+
+div#keyvalues {
+	background-color: #d9d9d9;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	margin: 10px 0px 0px 0px;
+	padding: 0px;
+	border: 1px solid #d9d9d9;
+}
+div.keyvalue {
+	/* font-family: Verdana, Helvetica, sans-serif; */
+	color: #434343;
+	padding: 10px;
+}
+div.keyvalue:nth-child(2n) {
+	background-color: #fafafa;
+}
+div.keyvalue:first-child {
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+div.keyvalue:last-child {
+	-webkit-border-bottom-left-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+button {
+    margin: 0px 0px 0px 5px;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    /* font-family: Verdana, Helvetica, sans-serif; */
+    font-size: 14px;
+    border-radius: 4px;
+}
+input {
+    padding: 5px;
+    /* font-family: Verdana, Helvetica, sans-serif; */
+    font-size: 14px;
+    /* border-radius: 6px; */
+    margin-left: 5px;
+    
+}
+label {
+    /* font-family: Verdana, Helvetica, sans-serif; */
+    /* font-size: 14px; */
+   
+}
+
+/* table formatting for blocks of inputs */
+
+.inputTable {
+    display: table;
+}
+
+.inputRow {
+    display: table-row;
+    margin-bottom: 5px;
+}
+
+.inputCell {
+    display: table-cell;
+    margin: 0px 0px 10px 10px;
+}
+
+/* spacing for some elements */
+
+#userinfo {
+    margin-top: 40px;
+}
+
+#infobuttons {
+    margin-top: 20px;
+}

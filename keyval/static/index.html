@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Key Value Store</title>
+    <script src="/static/keyvalue.js"></script>
+    <link rel="stylesheet" href="/static/keyvalue.css">
+</head>
+<body>
+    <h1>Information Keeper</h1>
+    <div class="loggedout" id="status">Not logged in</div>
+    <div class="errormessage" id="errormessage" hidden></div>
+    <div>
+        <div id="loginfields">
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="username">            
+            <br><br>
+        </div>
+        <div id="loggedin" hidden>
+            <button id="logoutButton">Logout</button>
+            <button id="unsubscribeButton">Unsubscribe</button>
+        </div>
+        <div id="loggedout">
+            <button id="loginButton">Login</button>
+            <button id="signupButton">Sign up</button>
+        </div>
+        <div id="userinfo" hidden>
+            <div class="inputTable">
+                <div class="inputRow">
+                    <label class="inputCell" for="thekey">Key</label>
+                    <input class="inputCell" type="text" id="thekey"
+                        placeholder="a key">
+                </div>
+                <div class="inputRow">
+                    <label class="inputCell" for="thevalue">Value</label>
+                    <input class="inputCell" type="text" id="thevalue"
+                        placeholder="a value">
+                </div>
+            </div>
+            <div id="infobuttons">
+                    <button id="getButton" hidden>Get</button>
+                    <button id="setButton" hidden>Set</button>
+                    <button id="getAllButton">Get All</button>
+                <button id="deleteAllButton">Delete All</button>               
+            </div>
+            <br>
+            <h2>Keys/Values</h2>
+            <div class="keyvalues" id="keyvalues" hidden></div>
+        </div>
+    </div>
+</body>
+</html>

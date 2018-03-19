@@ -1,0 +1,8 @@
+MANIFEST.in
+keyval/__init__.py
+keyval/keyval.py
+keyval.egg-info/PKG-INFO
+keyval.egg-info/SOURCES.txt
+keyval.egg-info/dependency_links.txt
+keyval.egg-info/requires.txt
+keyval.egg-info/top_level.txt
